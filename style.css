@@ -1,0 +1,62 @@
+body{
+      
+}
+form{
+	text-align: center;
+}
+.main{
+	height: 480px;
+	width: 380px;
+	background-color:blue;
+	margin: 50px auto;
+	box-shadow:10px 10px 25px red;
+
+}
+h1{
+	padding-top: 20px;	
+	font-weight: bold;
+	letter-spacing: 2px; 
+    color: white;
+}
+
+input{
+	display: block;
+	margin: 30px auto;
+	height: 30px;
+	width: 280px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 15px;
+}
+input:focus{
+	border:5px solid green;
+	box-shadow: 10px 10px 20px;
+	border-style: double;
+	background-color: skyblue;
+}
+button{
+	width: 90px;
+	height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    border:2px solid yellow;
+    background-color: purple;
+    transition: 1s ease;
+	color:white;
+
+}
+button:hover{
+	background-color: green;
+	color: white;
+}
+::placeholder{
+	padding-left: 8px;
+    
+}
+.err{
+	font-weight: 500; 
+	color:white;
+
+}

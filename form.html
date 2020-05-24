@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>FORM VALIDATION</title>
+    
+</head>
+<body>
+
+<div class="main">
+	<form onsubmit="return check()">
+ <h1 align="center">Register here</h1>
+	<div>
+	<input type="text" placeholder="Username" class="uname">
+    </div>
+
+    <div>
+	<input type="Email" placeholder="Email" class="email">
+    </div>
+
+    <div>
+	<input type="number" placeholder="Phone Number" class="pn">
+    </div>
+
+    <div>
+	<input type="password" placeholder="password" class="pass1">
+    </div>
+
+    <div>
+	<input type="password" placeholder="Repeat password" class="pass2">
+     
+     <button type="submit" onclick="okay()">Register</button><br>
+    <!--Error Message -->                                                                                                                                       
+    <span class="err"></span>
+    </form>
+    </div>
+
+</div>
+
+  <script src="main.js"></script>
+</body>
+</html>
